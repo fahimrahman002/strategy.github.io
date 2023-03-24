@@ -6,8 +6,14 @@
     <meta name="description" content="">
     <title>Home</title>
     <link rel="stylesheet" href="css/main.css" media="screen">
-    <link rel="stylesheet" href="css/custom.css" media="screen">
     <link rel="stylesheet" href="css/Home.css" media="screen">
+    <link rel="stylesheet" href="css/custom.css" media="screen">
+    <link
+      rel="stylesheet"
+      href="css/crusta-c/sidebar.css"
+      type="text/css"
+      media="all"
+    />
     <script class="u-script" type="text/javascript" src="js/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="js/main.js" defer=""></script>
     <meta name="referrer" content="origin">
@@ -35,7 +41,191 @@
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
   <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="en">
+  <body id="body" class="u-body u-overlap u-overlap-contrast u-xl-mode" data-lang="en">
+
+    <div class="menu-container">
+      <div id="handler" class="btn-menu">
+        <div class="handler only-mobile">
+          <svg
+            viewBox="0 0 39 262"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="#ffffff"
+              d="M40,262V234.38c0-16.06-5.35-31.81-15.47-45.54l-9.06-12.3c-20.65-28-20.62-63.16.06-91.16l8.94-12.09C34.63,59.54,40,43.76,40,27.66V0"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="picto menu-btn-xl"
+          style="
+            font-size: 1rem;
+            letter-spacing: 0px;
+            font-weight: 700;
+            text-transform: uppercase;
+          "
+        >
+          <svg
+            class="u-svg-link"
+            preserveAspectRatio="xMidYMin slice"
+            viewBox="0 0 80 80"
+          >
+            <use
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xlink:href="#svg-7d1b"
+            ></use>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            xml:space="preserve"
+            class="u-svg-content"
+            viewBox="0 0 80 80"
+            id="svg-7d1b"
+            fill="currentColor"
+          >
+            <g filter="url(#filter0_b_17_274)">
+              <rect
+                width="80"
+                height="80"
+                fill="currentColor"
+                fill-opacity="0.3"
+              ></rect>
+            </g>
+            <path
+              d="M24 28L36.375 28"
+              stroke="white"
+              stroke-width="4"
+              stroke-linecap="square"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M24 52.75L44.625 52.75"
+              stroke="white"
+              stroke-width="4"
+              stroke-linecap="square"
+              stroke-linejoin="round"
+            ></path>
+            <path
+              d="M24 40.375L57 40.375"
+              stroke="white"
+              stroke-width="4"
+              stroke-linecap="square"
+              stroke-linejoin="round"
+            ></path>
+            <defs>
+              <filter
+                id="filter0_b_17_274"
+                x="-8"
+                y="-8"
+                width="96"
+                height="96"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feGaussianBlur
+                  in="BackgroundImageFix"
+                  stdDeviation="4"
+                ></feGaussianBlur>
+                <feComposite
+                  in2="SourceAlpha"
+                  operator="in"
+                  result="effect1_backgroundBlur_17_274"
+                ></feComposite>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_backgroundBlur_17_274"
+                  result="shape"
+                ></feBlend>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+        <div class="picto menu-btn-s">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="arrow">
+            <svg
+              viewBox="0 0 11 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 17.4585L2.02548 19L11 9.32932L2.12332 7.15256e-07L0.120312 1.56427L7.5268 9.34729L0 17.4585Z"
+                fill="#023646"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <div class="layer back clear-after">
+        <div class="float half fitheight hide-mobile"></div>
+        <div class="float half right fitheight hide-mobile"></div>
+      </div>
+      <div class="layer fore clear-after">
+        <div class="float half fitheight">
+          <div class="middle-holder">
+            <div class="middle">
+              <div class="right-holder">
+                <img
+                  class="icon-mobile-dark"
+                  src="images/icon_dark.png"
+                  alt=""
+                  srcset=""
+                />
+                <img
+                  class="icon-mobile"
+                  src="images/logo_with_name.png"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+
+              <div class="right-holder">
+                <div class="main-menu">
+                  <div class="menu-item">
+                    <div class="menu-head">
+                      <a class="t-nav-pri" href="index.html" onClick="closeNavbar()">Home</a>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head">
+                      <a class="t-nav-pri" href="#sec-1ffe" onClick="closeNavbar()">Our Services</a>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head">
+                      <a class="t-nav-pri" href="#sec-d4ba" onClick="closeNavbar()">About Us</a>
+                    </div>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-head">
+                      <a class="t-nav-pri" href="#contact-info" onClick="closeNavbar()">Contact Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="circle circle1 hide-mobile"></div>
+      <div class="circle circle2 hide-mobile"></div> -->
+    </nav>
 
     <!--------------------- Header section-------------------->
     <header class="u-clearfix u-header u-header" id="sec-f45d">
@@ -43,8 +233,13 @@
         <a href="#" class="u-image u-logo u-image-1" data-image-width="240" data-image-height="65">
           <img src="images/logo_with_name.png" class="u-logo-image u-logo-image-1">
         </a>
-        <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
+        
+        <!-- <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
+          <div class="side-bar-btn hidden">
+            <img class="side-bar-shape" src="images/mobile_menu_shape.svg" alt="" srcset="">
+            <img class="menu-icon-mobile" src="images/menu-icon-black.png" alt="" srcset="">
+          </div>
+          <div class="menu-collapse menu-btn" style="font-size: 1rem; letter-spacing: 0px; font-weight: 700; text-transform: uppercase;">
             <a class="u-button-style u-custom-active-border-color u-custom-active-color u-custom-border u-custom-border-color u-custom-borders u-custom-color u-custom-hover-border-color u-custom-hover-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" style="font-size: calc(1em + 40px); padding: 20px 36px;">
               <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 80 80"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7d1b"></use></svg>
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 80 80" id="svg-7d1b" fill="currentColor"><g filter="url(#filter0_b_17_274)"><rect width="80" height="80" fill="currentColor" fill-opacity="0.3"></rect></g><path d="M24 28L36.375 28" stroke="white" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path><path d="M24 52.75L44.625 52.75" stroke="white" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path><path d="M24 40.375L57 40.375" stroke="white" stroke-width="4" stroke-linecap="square" stroke-linejoin="round"></path><defs><filter id="filter0_b_17_274" x="-8" y="-8" width="96" height="96" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood><feGaussianBlur in="BackgroundImageFix" stdDeviation="4"></feGaussianBlur><feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_17_274"></feComposite><feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_17_274" result="shape"></feBlend></filter></defs></svg>
@@ -73,12 +268,13 @@
             </div>
             <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
-        </nav>
+        </nav> -->
       </div>
     </header>
     <section class="u-clearfix u-image u-shading u-section-1" id="sec-ce18" data-image-width="1920" data-image-height="1450">
+
       <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="header-img u-expanded-width-xs u-image u-image-default u-image-1" src="images/Rectangle3.png" alt="" data-image-width="637" data-image-height="767">
+        <img class="header-img u-expanded-width-xs u-image u-image-default u-image-1" src="images/header-person.png" alt="" data-image-width="637" data-image-height="767">
         <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-2" src="images/Group10.png" alt="" data-image-width="336" data-image-height="270">
         <p class="u-text u-text-white u-text-1"> Your digital agency <br>
         </p>
@@ -208,7 +404,7 @@ when you meet us, you’ll discover a team of <br>unique individuals working tog
           <div class="modal-header">
             <button type="button" onclick="pauseVideo()" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body video-modal">
+          <div class="modal-body video-modal p-0">
             <video class="video-play" id="introVideo" preload="auto" controls>
               <source src="videos/intro.mp4" type="video/mp4">
             </video>
@@ -458,7 +654,7 @@ when you meet us, you’ll discover a team of <br>unique individuals working tog
         <div class="u-carousel-inner" role="listbox">
           <div class="u-active u-align-left u-carousel-item u-container-style u-image u-shading u-slide u-image-1" data-image-width="1920" data-image-height="815">
             <div class="u-container-layout u-container-layout-1">
-              <div class="u-border-2 u-border-white u-line u-line-horizontal u-line-1"></div>
+              <!-- <div class="u-border-2 u-border-white u-line u-line-horizontal u-line-1"></div> -->
               <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-2" src="images/2bace338-3383-44e8-89b9-3e2981462ad1.png" alt="" data-image-width="136" data-image-height="136">
               <h2 class="u-text u-text-default u-text-1"> What our customer&nbsp;<br>say
               </h2>
@@ -503,7 +699,7 @@ when you meet us, you’ll discover a team of <br>unique individuals working tog
         <h4 class="u-text u-text-1"> Get in touch with <span style="font-weight: 700;">Strategy</span>
         </h4>
         <div class="u-form u-form-1">
-          <form action="#" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="email" name="form">
+          <form action="#" id="contactUsFrom" class="u-clearfix u-form-spacing-15 u-form-vertical u-inner-form" style="padding: 15px;" source="email" name="form">
             <div class="u-form-group u-form-name u-label-top u-form-group-1">
               <label for="name-6797" class="u-label">Name</label>
               <input type="text" placeholder="Name" id="name-6797" name="name" class="u-input u-input-rectangle" required="">
@@ -656,5 +852,41 @@ c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
   
   <script src="js/custom.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script
+      type="text/javascript"
+      src="js/crusta-c/jquery.js"
+      id="jquery-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/crusta-c/jquery.autoellipsis.js"
+      id="jquery-autoellipsis-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/crusta-c/slick.min.js"
+      id="slick-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/crusta-c/ms_preload.js"
+      id="ms_preload-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/crusta-c/ms_onscroll.js"
+      id="ms_onscroll-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/crusta-c/ms_rollstring.js"
+      id="ms_rollstring-js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="js/crusta-c/functions.js"
+      id="functions-js"
+    ></script>
   </body>
 </html>
