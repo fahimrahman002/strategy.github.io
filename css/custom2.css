@@ -1,0 +1,182 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.video-play {
+  width: 100%;
+  height: 326px;
+}
+.video-modal {
+  padding: 0px;
+}
+.u-logo > img {
+  height: 50px;
+}
+header {
+  padding-top: 0px !important;
+}
+.hide {
+  visibility: hidden;
+}
+@media (min-width: 900px) {
+  .btn-menu {
+    font-size: 2.5em;
+    top: 0.7em;
+  }
+  .menu-btn-s {
+    visibility: hidden;
+  }
+}
+@media (max-width: 900px) {
+  .menu-btn-xl {
+    visibility: hidden;
+  }
+}
+
+.icon-mobile {
+  position: absolute;
+  top: -179px;
+}
+
+@media (max-width: 990px) {
+  .text-center-md {
+    text-align: center;
+  }
+}
+.center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+@media (min-width: 990px) {
+  .meet-expert-text {
+    margin-top: 9rem !important;
+  }
+}
+@media (max-width: 440px) {
+  .meet-expert-text {
+    margin-top: 4rem !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-line-1 {
+    top: 139px;
+  }
+}
+@media (min-width: 356px) {
+  .u-section-5 .u-line-1 {
+    top: 165px;
+  }
+}
+.meet-expert-text {
+  margin-left: 4rem !important;
+  /* margin-top: 3rem !important; */
+  margin-right: 4rem !important;
+}
+.schedule-now-link {
+  margin: 15px 0 0 29px !important;
+  padding: 0px !important;
+}
+.bottom-container {
+  top: -118px;
+  background: white;
+}
+.u-col-2 {
+  margin-top: 4rem;
+}
+
+#videoPlayBtn {
+  cursor: pointer !important;
+  position: absolute;
+  right: 13rem;
+  top: 31rem;
+  z-index: 100;
+}
+
+.c-group-2 {
+  width: 15rem;
+}
+
+.c-group-2 > .c-child-1 {
+  position: relative;
+  left: 7rem;
+  top: 2rem;
+}
+
+.c-group-2 > .c-child-1 {
+  position: relative;
+  left: 3rem;
+  top: -0.5rem;
+}
+
+.c-container-1 {
+  margin-top: 10rem;
+}
+
+.header-img {
+  margin: 0px auto 0px auto !important;
+}
+
+@media (max-width: 1392px) {
+  .header-img {
+    margin-top: 2rem !important;
+    margin-bottom: 16rem !important;
+  }
+}
+
+.text-left {
+  text-align: left;
+}
+
+.c-text-1 {
+  font-size: 1.875rem !important;
+}
+.c-text-2 {
+  font-size: 1.875rem !important;
+}
+.c-text-3 {
+  font-size: 1.125rem !important;
+}
+
+.c-row {
+  display: flex;
+}
+
+@media (max-width: 859px) {
+  .c-row {
+    flex-direction: column;
+  }
+  .c-group-1 {
+    width: 30rem;
+  }
+}
+
+/* .top-section {
+  padding-left: 5rem;
+  padding-right: 5rem;
+} */
+
+section {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+.c-section-5 {
+  min-width: 70rem !important;
+}
+
+.u-form-group {
+  width: 79% !important;
+}
+
+/* .c-text-3{
+  padding-right: 10rem;
+}
+
+.c-group-1{
+      padding-left: 9rem;
+} */

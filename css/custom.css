@@ -1,0 +1,119 @@
+.side-bar-btn {
+  position: fixed;
+  z-index: 100;
+  top: 23rem;
+  right: 3%;
+}
+.side-bar-shape {
+  height: 15rem;
+}
+.menu-icon-mobile {
+  position: absolute;
+  height: 1.2rem;
+  left: 4px;
+  top: 7rem;
+}
+.hidden {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 989px) {
+  .side-bar-btn {
+    visibility: visible;
+  }
+  .menu-btn {
+    visibility: hidden;
+  }
+  .menu-head > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  .menu-head > a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0) !important;
+  }
+  .menu-item:hover {
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .icon-mobile {
+    visibility: visible;
+  }
+  .icon-mobile-dark {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 900px) {
+  .icon-mobile {
+    visibility: hidden;
+  }
+  .icon-mobile-dark {
+    visibility: visible;
+  }
+  .menu-btn-xl {
+    visibility: hidden;
+  }
+}
+@media (min-width: 900px) {
+  .btn-menu {
+    font-size: 2.5em;
+    top: 0.7em;
+  }
+  .menu-btn-s {
+    visibility: hidden;
+  }
+  .middle {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .menu-head > a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu-head > a:hover {
+    text-decoration: underline;
+    color: white !important;
+  }
+  .menu-item:hover {
+    color: white !important;
+  }
+  .menu-btn-xl {
+    top: -143% !important;
+  }
+  .btn-menu {
+    width: 1.5em !important;
+    height: 1.5em !important;
+  }
+}
+
+.icon-mobile {
+  position: relative;
+  left: -7rem;
+  height: 3rem;
+  bottom: 10rem;
+}
+
+.icon-mobile-dark {
+  position: relative;
+  top: -5rem;
+  left: 1%;
+  height: 2rem;
+}
+.carousel-control-next-icon {
+  background-image: url("../images/arrow-right.png") !important;
+}
+.carousel-control-prev-icon {
+  background-image: url("../images/arrow-left.png") !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.video-play {
+  width: 100%;
+  height: 326px;
+}

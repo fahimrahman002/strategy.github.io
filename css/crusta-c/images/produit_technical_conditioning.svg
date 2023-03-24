@@ -1,0 +1,6 @@
+<svg viewBox="-1 -1 30 28" preserveAspectRatio="xMidYMid meet" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0L18 0L18 18L0 18L0 0Z" transform="translate(0 8)" id="Rectangle" fill="none" fill-rule="evenodd" stroke="#023646" stroke-width="1.2" stroke-linejoin="round" />
+    <path d="M0 0L6 0L6 6L0 6L0 0Z" transform="translate(6 8)" id="Rectangle" fill="none" fill-rule="evenodd" stroke="#023646" stroke-width="1.2" stroke-linejoin="round" />
+    <path d="M0 8L10 0L28 0L28 18L18 26" id="Path-9" fill="none" fill-rule="evenodd" stroke="#023646" stroke-width="1.2" stroke-linejoin="round" />
+    <path d="M0 8L10 0" transform="translate(18 0)" id="Path-4" fill="none" fill-rule="evenodd" stroke="#023646" stroke-width="1.2" stroke-linejoin="round" />
+</svg>
