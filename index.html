@@ -5,9 +5,12 @@
     <meta name="keywords" content="​What our customer&nbsp;say">
     <meta name="description" content="">
     <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="css/main.css" media="screen">
     <link rel="stylesheet" href="css/Home.css" media="screen">
     <link rel="stylesheet" href="css/custom.css" media="screen">
+    <link rel="stylesheet" href="css/typing-animation.css" media="screen">
+    
     <link
       rel="stylesheet"
       href="css/crusta-c/sidebar.css"
@@ -18,14 +21,17 @@
     <script class="u-script" type="text/javascript" src="js/main.js" defer=""></script>
     <meta name="referrer" content="origin">
     
+    <!-- Bootstrap cdn  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
     
+    <!-- Google fonts  -->
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
     
     <script type="application/ld+json">{
 		"@context": "http://schema.org",
 		"@type": "Organization",
-		"name": "",
+		"name": "Strategy",
 		"logo": "images/logo_with_name.png",
 		"sameAs": [
 				"https://facebook.com/name",
@@ -274,19 +280,20 @@
     <section class="u-clearfix u-image u-shading u-section-1" id="sec-ce18" data-image-width="1920" data-image-height="1450">
 
       <div class="u-clearfix u-sheet u-sheet-1">
-        <img class="header-img u-expanded-width-xs u-image u-image-default u-image-1" src="images/header-person.png" alt="" data-image-width="637" data-image-height="767">
-        <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-2" src="images/Group10.png" alt="" data-image-width="336" data-image-height="270">
+        <img class="header-img u-expanded-width-xs u-image u-image-default u-image-1 hidden" src="images/header-person.png" alt="" data-image-width="637" data-image-height="767">
+        <img class="u-hidden-sm u-hidden-xs u-image u-image-contain u-image-default u-image-2 hidden" src="images/Group10.png" alt="" data-image-width="336" data-image-height="270">
         <p class="u-text u-text-white u-text-1"> Your digital agency <br>
         </p>
-        <img id="videoPlayBtn" onClick="playVideo()" data-bs-toggle="modal" data-bs-target="#videoPlayModal" class="cursor-pointer u-image u-image-contain u-image-default u-preserve-proportions u-image-3" src="images/Group41.png" alt="" data-image-width="155" data-image-height="155">
-        <p class="u-text u-text-white u-text-2">solution! </p>
+        <img id="videoPlayBtn" onClick="playVideo()" data-bs-toggle="modal" data-bs-target="#videoPlayModal" class="cursor-pointer u-image u-image-contain u-image-default u-preserve-proportions u-image-3 hidden" src="images/play-btn-icon.png" alt="" data-image-width="155" data-image-height="155">
+        <p class="u-text u-text-white u-text-2"><span class="typewriter thick"></span></p>  
+        
         <p class="header-text u-align-center-sm u-align-center-xs u-align-justify-md u-text u-text-white u-text-3"> Transform your company and create innovative design
 experiences at a local as well as global scale.​&nbsp;&nbsp;</p>
         <a href="#contact-info" class="u-border-2 u-border-white u-btn u-btn-round u-button-style u-hover-white u-radius-3 u-text-body-color u-text-hover-black u-white u-btn-1">CONTACT NOW&nbsp;&nbsp;<span class="u-file-icon u-icon u-icon-1"><img src="images/Vector.png" alt=""></span>
         </a>
-        <img class="arrow-dashed u-image u-image-contain u-preserve-proportions u-image-4" src="images/Union.png" alt="" data-image-width="135" data-image-height="70">
-        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-5" src="images/Who.png" alt="" data-image-width="81" data-image-height="54">
-        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-6" src="images/WeHelp.png" alt="" data-image-width="147" data-image-height="73">
+        <img class="arrow-dashed u-image u-image-contain u-preserve-proportions u-image-4 hidden" src="images/Union.png" alt="" data-image-width="135" data-image-height="70">
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-5 hidden" src="images/Who.png" alt="" data-image-width="81" data-image-height="54">
+        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-6 hidden" src="images/WeHelp.png" alt="" data-image-width="147" data-image-height="73">
       </div>
     </section>
     <section class="u-clearfix u-custom-color-4 u-section-2" id="sec-1ffe">
@@ -376,7 +383,7 @@ experiences at a local as well as global scale.​&nbsp;&nbsp;</p>
             <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-1">
               <div class="u-container-layout u-container-layout-1">
                 <img class="u-image u-image-contain u-image-2" src="images/people-working-office-medium-shot1.png" data-image-width="662" data-image-height="796">
-                <img class="cursor-pointer u-image u-image-contain u-image-default u-preserve-proportions u-image-3" src="images/Group38.png" alt="" data-image-width="322" data-image-height="322">
+                <img class="hover-rotate cursor-pointer u-image u-image-contain u-image-default u-preserve-proportions u-image-3" src="images/logo-white-bg.png" alt="" data-image-width="322" data-image-height="322">
               </div>
             </div>
             <div class="u-container-style u-layout-cell u-size-30 u-layout-cell-2">
